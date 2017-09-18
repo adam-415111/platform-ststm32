@@ -1,0 +1,22 @@
+{
+    "platform": "ststm32",
+    "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DTARGET_LIKE_CORTEX_M4 -DTARGET_STM32F334R8 -DSTM32F3 -DSTM32F334x8 -DTARGET_STM32F334K8 -DSTM32F334K8T6",
+    "f_cpu": "72000000L",
+    "mcu": "stm32f334k8t6",
+    "variant": "stm32f334x8"
+  },
+  "frameworks": [
+    "mbed"
+  ],
+  "name": "VOXEL F334 US",
+  "upload": {
+    "maximum_ram_size": 40960,
+    "maximum_size": 131072,
+    "protocol": "stlink"
+  },
+  "url": "http://voxel.at/",
+  "vendor": "VoXel"
+}

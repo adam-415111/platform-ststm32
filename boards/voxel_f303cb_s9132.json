@@ -1,0 +1,22 @@
+{
+    "platform": "ststm32",
+    "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DSTM32F3 -DSTM32F303xB -DSTM32F303CB",
+    "f_cpu": "72000000L",
+    "mcu": "stm32f303cbt6",
+    "variant": "stm32f303xb"
+  },
+  "frameworks": [
+    "mbed"
+  ],
+  "name": "VOXEL F303CB S9132",
+  "upload": {
+    "maximum_ram_size": 40960,
+    "maximum_size": 131072,
+    "protocol": "stlink"
+  },
+  "url": "http://voxel.at/",
+  "vendor": "VoXel"
+}

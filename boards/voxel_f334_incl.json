@@ -1,0 +1,23 @@
+{
+    "platform": "ststm32",
+    "build": {
+    "core": "stm32",
+    "cpu": "cortex-m4",
+    "extra_flags": "-DTARGET_LIKE_CORTEX_M4 -DTARGET_STM32F334R8 -DSTM32F3 -DSTM32F334x8 -DSTM32F334K8 -DSTM32F334K8T6 -DDEVICE_CAN=1",
+    "f_cpu": "72000000L",
+    "mcu": "stm32f334k8t6",
+    "variant": "stm32f334x8"
+  },
+  "frameworks": [
+      "mbed",
+      "https://github.com/voxel-dot-at/voxel-mbed-os.git"
+  ],
+  "name": "VOXEL F334 INCL",
+  "upload": {
+    "maximum_ram_size": 16384,
+    "maximum_size": 65536,
+    "protocol": "stlink"
+  },
+  "url": "http://voxel.at/",
+  "vendor": "VoXel"
+}
