@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/platformio/platform-ststm32.git"
+    "url": "git@github.com:voxel-dot-at/platform-ststm32.git"
   },
   "version": "3.4.0",
   "packageRepositories": [
@@ -21,6 +21,10 @@
     "mbed": {
       "package": "framework-mbed",
       "script": "builder/frameworks/mbed/mbed.py"
+    },
+    "voxel-mbed": {
+      "package": "framework-voxel-mbed",
+      "script": "builder/frameworks/voxel-mbed/mbed.py"
     },
     "cmsis": {
       "package": "framework-cmsis",
@@ -82,6 +86,11 @@
       "type": "framework",
       "optional": true,
       "version": "~1.0.0"
+    },
+    "framework-voxel-mbed": {
+      "type": "framework",
+      "optional": true,
+      "version": "https://github.com/voxel-dot-at/voxel-mbed-os.git"
     },
     "tool-stlink": {
       "type": "uploader",
